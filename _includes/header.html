@@ -12,20 +12,14 @@
         <li>
           <a href="{{ '/' | prepend: site.baseurl }}">Home</a>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li>
-            <a><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></a>
+          <a rel="nofollow" target="_blank" href="{{site.github}}">Github</a>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a rel="nofollow" target="_blank" href="{{site.github}}">Github</a></li>
-            <li><a rel="nofollow" target="_blank" href="{{site.resume_site}}">关于作者</a></li>
-            <li><a rel="nofollow" href="{{ '/books' | prepend: site.baseurl }}">我的书单</a></li>
-            <li><a rel="nofollow" href="{{ '/reference' | prepend: site.baseurl }}">推荐博客</a></li>
-            <li><a rel="nofollow" target="_blank" href="https://github.com/luoyan35714/LessOrMore.git">项目模板</a></li>
-          </ul>
+        <li>
+          <a rel="nofollow" href="{{ '/books' | prepend: site.baseurl }}">我的书单</a>
+        </li>
+        <li>
+          <a rel="nofollow" href="{{ '/reference' | prepend: site.baseurl }}">推荐博客</a>
         </li>
       </ul>
     </nav>
