@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-02-07-深入浅出索引.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2018-09-15-MySQL数据类型.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2019-01-05-PHP的CURL功能扩展基本用法.md" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-16-https 搭建使用.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-26-事务隔离.md" afterPath="$PROJECT_DIR$/_posts/2019-01-26-事务隔离.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-01-30-laravel一次发布导致的BUG.md" afterPath="$PROJECT_DIR$/_posts/2019-01-30-laravel一次发布导致的BUG.md" />
-      <change beforePath="$PROJECT_DIR$/books.md" afterPath="$PROJECT_DIR$/books.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-02-07-深入浅出索引.md" afterPath="$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +66,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tag/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="390">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -238,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565321240807</updated>
-      <workItem from="1565321242110" duration="896000" />
+      <workItem from="1565321242110" duration="1023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="896000" />
+    <option name="totallyTimeSpent" value="1023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -428,7 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-02-07-深入浅出索引.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
@@ -443,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tag/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="390">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
           <folding />
         </state>
       </provider>
