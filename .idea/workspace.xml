@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md" afterPath="$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md" />
-    </list>
+    <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
               <first_editor relative-caret-position="345">
                 <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
                 <folding>
-                  <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
+                  <marker date="1567561551265" expanded="true" signature="875:968" ph="create table... T" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -280,12 +278,12 @@
       <updated>1565321240807</updated>
       <workItem from="1565321242110" duration="1639000" />
       <workItem from="1565710417860" duration="562000" />
-      <workItem from="1567511385773" duration="776000" />
+      <workItem from="1567511385773" duration="1259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2977000" />
+    <option name="totallyTimeSpent" value="3460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -454,7 +452,7 @@
           <first_editor relative-caret-position="375">
             <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             <folding>
-              <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
+              <marker date="1567561551265" expanded="true" signature="875:968" ph="create table... T" />
             </folding>
           </first_editor>
           <second_editor />
@@ -664,7 +662,7 @@
           <first_editor relative-caret-position="345">
             <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
             <folding>
-              <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
+              <marker date="1567561551265" expanded="true" signature="875:968" ph="create table... T" />
             </folding>
           </first_editor>
           <second_editor />
