@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md" afterPath="$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,10 +47,10 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="244">
-                <caret line="46" column="125525" lean-forward="true" selection-start-line="46" selection-start-column="125525" selection-end-line="46" selection-end-column="125525" />
+              <first_editor relative-caret-position="345">
+                <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
                 <folding>
-                  <marker date="1567511893150" expanded="true" signature="875:968" ph="create table... T" />
+                  <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -281,12 +280,12 @@
       <updated>1565321240807</updated>
       <workItem from="1565321242110" duration="1639000" />
       <workItem from="1565710417860" duration="562000" />
-      <workItem from="1567511385773" duration="503000" />
+      <workItem from="1567511385773" duration="776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2704000" />
+    <option name="totallyTimeSpent" value="2977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -455,7 +454,7 @@
           <first_editor relative-caret-position="375">
             <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
             <folding>
-              <marker date="1567511893150" expanded="true" signature="875:968" ph="create table... T" />
+              <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
             </folding>
           </first_editor>
           <second_editor />
@@ -662,10 +661,10 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-02-07-深入浅出索引.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="244">
-            <caret line="46" column="125525" lean-forward="true" selection-start-line="46" selection-start-column="125525" selection-end-line="46" selection-end-column="125525" />
+          <first_editor relative-caret-position="345">
+            <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
             <folding>
-              <marker date="1567511893150" expanded="true" signature="875:968" ph="create table... T" />
+              <marker date="1567561445051" expanded="true" signature="875:968" ph="create table... T" />
             </folding>
           </first_editor>
           <second_editor />
