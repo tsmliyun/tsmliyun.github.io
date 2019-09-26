@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/_posts/2019-09-26-关于PHP内存溢出的思考.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-09-26-关于PHP内存溢出的思考.md" afterPath="$PROJECT_DIR$/_posts/2019-09-26-关于PHP内存溢出的思考.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,9 +30,29 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-09-26-关于PHP内存溢出的思考.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-                <folding />
+              <first_editor relative-caret-position="465">
+                <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+                <folding>
+                  <marker date="1569487719938" expanded="true" signature="982:4314" ph="{...}" />
+                  <marker date="1569487719938" expanded="true" signature="1030:1152" ph=" 导出文件 ..." />
+                  <marker date="1569487719938" expanded="true" signature="1233:2415" ph="{...}" />
+                  <marker date="1569487719938" expanded="true" signature="1383:2256" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="1596:1635" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="1757:1812" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="1988:2202" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="2063:2148" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="2424:2471" ph=" 向文件写入数据 ..." />
+                  <marker date="1569487719938" expanded="true" signature="2519:2744" ph="{...}" />
+                  <marker date="1569487719938" expanded="true" signature="2573:2737" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="2753:2842" ph=" 压缩文件 ..." />
+                  <marker date="1569487719938" expanded="true" signature="2903:3385" ph="{...}" />
+                  <marker date="1569487719938" expanded="true" signature="3010:3051" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="3146:3329" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="3402:3468" ph=" 下载文件 ..." />
+                  <marker date="1569487719938" expanded="true" signature="3528:4312" ph="{...}" />
+                  <marker date="1569487719938" expanded="true" signature="3585:3640" ph="..." />
+                  <marker date="1569487719938" expanded="true" signature="3648:4305" ph="..." />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -175,12 +194,12 @@
       <workItem from="1565710417860" duration="562000" />
       <workItem from="1567511385773" duration="1259000" />
       <workItem from="1569473962407" duration="1175000" />
-      <workItem from="1569478528094" duration="6401000" />
+      <workItem from="1569478528094" duration="6629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11036000" />
+    <option name="totallyTimeSpent" value="11264000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="0" />
@@ -638,9 +657,29 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-09-26-关于PHP内存溢出的思考.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-            <folding />
+          <first_editor relative-caret-position="465">
+            <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+            <folding>
+              <marker date="1569487719938" expanded="true" signature="982:4314" ph="{...}" />
+              <marker date="1569487719938" expanded="true" signature="1030:1152" ph=" 导出文件 ..." />
+              <marker date="1569487719938" expanded="true" signature="1233:2415" ph="{...}" />
+              <marker date="1569487719938" expanded="true" signature="1383:2256" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="1596:1635" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="1757:1812" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="1988:2202" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="2063:2148" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="2424:2471" ph=" 向文件写入数据 ..." />
+              <marker date="1569487719938" expanded="true" signature="2519:2744" ph="{...}" />
+              <marker date="1569487719938" expanded="true" signature="2573:2737" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="2753:2842" ph=" 压缩文件 ..." />
+              <marker date="1569487719938" expanded="true" signature="2903:3385" ph="{...}" />
+              <marker date="1569487719938" expanded="true" signature="3010:3051" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="3146:3329" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="3402:3468" ph=" 下载文件 ..." />
+              <marker date="1569487719938" expanded="true" signature="3528:4312" ph="{...}" />
+              <marker date="1569487719938" expanded="true" signature="3585:3640" ph="..." />
+              <marker date="1569487719938" expanded="true" signature="3648:4305" ph="..." />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
