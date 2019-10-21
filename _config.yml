@@ -38,7 +38,7 @@ gitment:
     client_id:
     client_secret:
 
-url: "https://tsmliyun.github.io/"
+url: "https://tsmliyun.github.io"
 imgrepo: "https://tsmliyun.github.io/static/img"
 
 baidu_analysis: 5932d0c7a37693b1f46d0ed14571f61e
