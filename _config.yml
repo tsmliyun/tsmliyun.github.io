@@ -1,25 +1,50 @@
-# Site settings
-name: ley blog
-author: ley
-url: https://tsmliyun.github.io/
-resume_site:  https://github.com/tsmliyun
-github: https://github.com/tsmliyun
-baseurl: "/"
-description: Action is the only road to knowledge.
-meta_description: 不积跬步，无以至千里；不积小流，无以成江海
-motto: Do one thing at a time, and do well.
-banner: 一期一会
+plugins: [jekyll-paginate]
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+permalink: /:categories/:title/
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: liyun
-
-# Build settings
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+
+
+paginate: 10
+paginate_path: "page/:num"
+baseurl: "/"
+
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
+title: "liyun's blog"
+email: 747271667@qq.com
+description: "不积跬步，无以至千里；不积小流，无以成江海"
+github:
+  username: liyun
+swiftype:
+  searchId:
+gitment:
+    repo:
+    client_id:
+    client_secret:
+
+url: "https://tsmliyun.github.io/"
+imgrepo: "https://tsmliyun.github.io/static/img"
 
 baidu_analysis: 5932d0c7a37693b1f46d0ed14571f61e
+
+
+
+
+
 
