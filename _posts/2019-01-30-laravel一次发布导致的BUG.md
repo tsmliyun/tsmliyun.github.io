@@ -1,3 +1,11 @@
+---
+layout: post
+title: Laravel一次发布导致的bug
+tags: PHP Laravel
+categories: PHP
+---
+
+
 ## 背景
 
 laravel项目的某一次发布后，项目中连接数据库突然报错，而用同样的数据库账号密码在机器上连接是可以的。
