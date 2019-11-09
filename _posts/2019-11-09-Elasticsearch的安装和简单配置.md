@@ -5,13 +5,13 @@ tags: Elasticsearch 搜索引擎 Java 数据库 Linux
 categories: Elasticsearch
 ---
 
-## 安装
+# 安装
 
-### 下载地址
+## 下载地址
 
 https://www.elastic.co/cn/downloads/elasticsearch
 
-### 安装
+## 安装
 
 下载好安装包之后，解压缩文件：
 
@@ -19,7 +19,7 @@ https://www.elastic.co/cn/downloads/elasticsearch
 tar -zxvf elasticsearch-7.4.2-linux-x86_64.tar.gz
 ```
 
-## 文件目录结构
+# 文件目录结构
 
 | 目录    | 配置文件          | 描述                                       |
 | ------- | ----------------- | ------------------------------------------ |
@@ -32,9 +32,9 @@ tar -zxvf elasticsearch-7.4.2-linux-x86_64.tar.gz
 | modules |                   | 包含所有ES模块                             |
 | plugins |                   | 包含已安装的插件                           |
 
-## 启动ES
+# 启动ES
 
-#### 报错提示
+## 报错提示
 
 ```shell
 future versions of Elasticsearch will require Java 11; your Java version from [/usr/local/java/jdk1.8/jdk1.8.0_171/jre] does not meet this requirement
@@ -51,34 +51,34 @@ org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can no
 
 2. elasticsearch不能以root用户启动的
 
-##### 解决方法
+## 解决方法
 
-添加用户组和用户
+### 添加用户组和用户
 
 ```shell
 groupadd elsearch
 useradd elsearch -g elsearch
 ```
 
-修改es文件夹所属用户和用户组
+### 修改es文件夹所属用户和用户组
 
 ```shell
 chown -R elsearch:elsearch  /usr/local/webserver/elasticsearch-7.4.2
 ```
 
-切换用户
+### 切换用户
 
 ```shell
 su elsearch
 ```
 
-启动es
+### 启动es
 
 ```shell
 bin/elasticsearch
 ```
 
-#### 验证
+## 验证
 
 请求自己的IP地址:9200，就会出现下面的结果:
 
@@ -105,11 +105,11 @@ bin/elasticsearch
 
 即表示启动成功。
 
-#### 外网访问
+# 外网访问
 
 如果要使用外网访问，需要配置以下内容
 
-##### 修改配置
+## 修改配置
 
 ```shell
 vim config/elasticsearch.yml
@@ -123,11 +123,11 @@ http.port: 9200
 network.publish_host: 要发布的IP地址
 ```
 
-##### 阿里云开放端口
+## 阿里云开放端口
 
 安全组配置9200端口即可
 
-##### 防火墙问题
+## 防火墙问题
 
 如果还不能访问则需要配置防火墙端口
 
@@ -153,9 +153,9 @@ systemctl stop firewalld
 
 ```
 
-#### 重新启动
+## 重新启动
 
-##### 报错
+### 报错
 
 做了以上修改之后，重新启动ES，发现启动报错了，信息如何：
 
@@ -166,7 +166,7 @@ ERROR: [2] bootstrap checks failed
 [2]: the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
 ```
 
-##### 解决方案
+### 解决方案
 
 1. 切换root用户，修改` /etc/sysctl.conf`配置
 
@@ -203,15 +203,15 @@ ERROR: [2] bootstrap checks failed
 
    ![](/Users/yunli/liyun.github.io/static/img/es_success.png)
 
-## 插件安装
+# 插件安装
 
-### 查看插件
+## 查看插件
 
 ```shell
 bin/elasticsearch-plugin list
 ```
 
-### 安装插件
+## 安装插件
 
 ```shell
 bin/elasticsearch-plugin install 插件名
@@ -228,7 +228,7 @@ bin/elasticsearch-plugin install 插件名
 analysis-icu
 ```
 
-### 页面查看安装的插件
+## 页面查看安装的插件
 
 `http://外网IP:9200/_cat/plugins`
 
