@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="805">
-                <caret line="107" column="1" lean-forward="false" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+              <first_editor relative-caret-position="270">
+                <caret line="213" column="7" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -192,12 +192,12 @@
       <workItem from="1569478528094" duration="6886000" />
       <workItem from="1571630224409" duration="2464000" />
       <workItem from="1571798950839" duration="384000" />
-      <workItem from="1573281930258" duration="592000" />
+      <workItem from="1573281930258" duration="657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15741000" />
+    <option name="totallyTimeSpent" value="15806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -537,8 +537,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="805">
-            <caret line="107" column="1" lean-forward="false" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <first_editor relative-caret-position="270">
+            <caret line="213" column="7" lean-forward="true" selection-start-line="213" selection-start-column="7" selection-end-line="213" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
