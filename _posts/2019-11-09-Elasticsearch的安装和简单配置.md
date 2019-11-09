@@ -201,7 +201,7 @@ ERROR: [2] bootstrap checks failed
 
 3. 重启es,成功，即大功告成。现在即可以通过外网成功访问。
 
-   ![](/Users/yunli/liyun.github.io/static/img/es_success.png)
+   ![](https://tsmliyun.github.io/static/img/es_success.png)
 
 ## 插件安装
 
