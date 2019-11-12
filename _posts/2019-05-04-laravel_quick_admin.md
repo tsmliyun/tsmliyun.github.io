@@ -1,3 +1,10 @@
+---
+layout: post
+title: Laravel_quick_admin
+tags: PHP Laravel RABC
+categories: PHP
+---
+
 ## 介绍
 
 项目技术栈：基于laravel5.5 + H-ui开发的一款基础后台管理系统
@@ -6,9 +13,9 @@
 
 项目图片：
 
-![qa_role](/Users/yunli/liyun.github.io/static/img/qa_role.png)
+![qa_role](https://tsmliyun.github.io/static/img/qa_role.png)
 
-![qa_login](/Users/yunli/liyun.github.io/static/img/qa_login.png)
+![qa_login](https://tsmliyun.github.io/static/img/qa_login.png)
 
 ## 背景
 

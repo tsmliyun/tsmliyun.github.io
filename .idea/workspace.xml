@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md" afterPath="$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-04-laravel_quick_admin.md" afterPath="$PROJECT_DIR$/_posts/2019-05-04-laravel_quick_admin.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +13,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="2019-11-09-Elasticsearch的安装和简单配置.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2019-05-04-laravel_quick_admin.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-05-04-laravel_quick_admin.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-372">
+                <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -74,6 +85,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-05-04-laravel_quick_admin.md" />
       </list>
     </option>
   </component>
@@ -133,17 +145,6 @@
               <item name="liyun.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_posts" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="liyun.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liyun.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="liyun.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liyun.github.io" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -196,12 +197,12 @@
       <workItem from="1571798950839" duration="384000" />
       <workItem from="1573281930258" duration="1265000" />
       <workItem from="1573293367745" duration="472000" />
-      <workItem from="1573467461800" duration="26000" />
+      <workItem from="1573467461800" duration="789000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16912000" />
+    <option name="totallyTimeSpent" value="17675000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -238,7 +239,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/LessOrMore/pages_list" />
     <entry file="file://$PROJECT_DIR$/_includes/docs_header.html" />
     <entry file="file://$PROJECT_DIR$/_includes/LessOrMore/pages_list" />
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
@@ -494,21 +494,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="211" column="0" lean-forward="true" selection-start-line="211" selection-start-column="0" selection-end-line="211" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-11-09-Elasticsearch的安装和简单配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-05-04-laravel_quick_admin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-372">
+            <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
