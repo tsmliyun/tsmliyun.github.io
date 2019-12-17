@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2019-11-23-知识整理.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-11-16-gocron入门笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-11-16-gocron入门笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,24 +15,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>baseurl</find>
-      <find>2016书单</find>
-      <find>someone</find>
-      <find>suoyin</find>
-      <find>favi</find>
-      <find>baidu_analysis</find>
-      <find>url</find>
-      <find>Comment</find>
-      <find>Styling with Markdown is supported</find>
-      <find>Login</find>
-      <find>post-comment</find>
-      <find>bit-ranger</find>
-      <find>Toc</find>
-      <find>liyun</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +81,8 @@
       <workItem from="1573467461800" duration="834000" />
       <workItem from="1573878259584" duration="1045000" />
       <workItem from="1574476303098" duration="831000" />
-      <workItem from="1574845633925" duration="49000" />
+      <workItem from="1574845633925" duration="120000" />
+      <workItem from="1576548167185" duration="10000" />
     </task>
     <servers />
   </component>
