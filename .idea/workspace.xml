@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d86c7d9e-152a-4524-a221-2a4a4a0c077c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2020-11-18-阿肝正传之Redis主从同步.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-11-18-阿肝正传之Redis主从同步.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/Redis 主从复制缓冲区.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/Redis主从复制缓冲区.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1574845633925" duration="120000" />
       <workItem from="1576548167185" duration="382000" />
       <workItem from="1588151337648" duration="536000" />
-      <workItem from="1605690540778" duration="684000" />
+      <workItem from="1605690540778" duration="976000" />
     </task>
     <servers />
   </component>
