@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)http://booking.izhuodao.com/index.php?r=sports/sale/cart&customerId=6 -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+        <title>销售</title>
+    <link href="./bootstrap.min14ed.css" rel="stylesheet">
+<link href="./font-awesome.min93e3(1).css" rel="stylesheet">
+<link href="./animate.min.css" rel="stylesheet">
+<link href="./style.min862f(1).css" rel="stylesheet">
+<link href="./laydate.css" rel="stylesheet">
+<link href="./awesome-bootstrap-checkbox.css" rel="stylesheet">
+<link href="./toastr.min.css" rel="stylesheet">
+<link href="./chosen.css" rel="stylesheet">
+<link href="./feehi.css" rel="stylesheet">
+<script src="./jquery.js"></script>
+<script src="./yii.js"></script>
+<script src="./jquery-3.2.1.min.js"></script>
+<script src="./feehi.js"></script>
+<script src="./laydate.js"></script><link rel="stylesheet" href="./laydate(1).css" id="layuicss-laydate">
+<script src="./layer.min(1).js"></script><link rel="stylesheet" href="./layer(1).css" id="layui_layer_skinlayercss" style="">
+<script src="./bootstrap-prettyfile.js"></script>
+<script src="./toastr.min.js"></script>
+<script src="./chosen.jquery.js"></script>
+<script src="./vue.js"></script>
+<script src="./axios.min.js"></script>
+<script src="./request.js"></script>    <script>
+    var common = {
+        deleteText: "删除"
+    }
+    var tips = {
+        confirmTitle: "确认",
+        ok: "确定",
+        cancel: "取消",
+        noItemSelected: "啊哦,神马都都没有选中!",
+        onlyPictureCanBeSelected: "只能选择图片类型",
+        success: "成功",
+        error: "失败"
+    };
+</script>
+<!--    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">-->
+    <link href="./index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./layui.css">
+
+<link id="layuicss-layer" rel="stylesheet" href="./layer(2).css" media="all"><link id="layuicss-skincodecss" rel="stylesheet" href="./code.css" media="all"></head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content">
+        
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox">
+            <div class="ibox-title">
+    <span style="float: left;">
+        <ul class="breadcrumb"><li class="active">销售中心</li>
+</ul>    </span>
+    <div class="ibox-tools">
+        <a class="collapse-link ui-sortable">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+</div>
+            <div id="J_Vue" class="ibox-content" style="margin: 0px; padding: 0px;"><div class="menus-group"><div class="sell-product-menus"><ul class="sell-product-menus-list"><li class="choosed">
+                                体能训练
+                            </li><li class="">
+                                运动康复
+                            </li><li class="">
+                                运动产品
+                            </li></ul></div> <div class="sell-product-menus"><ul class="sell-product-menus-list" style="width: 100%;"><li class="">
+                                全部
+                            </li><li class="">
+                                常规课程
+                            </li><li class="">
+                                专属课程
+                            </li><li class="">
+                                女性健康管理
+                            </li><li class="choosed">
+                                特色课程
+                            </li></ul></div></div> <div class="ibox sell-step2" style="opacity: 1;"><div class="sell-product"><div class="input-group sell-product-menus-input"><input type="text" placeholder="输入商品名" class="form-control"> <span class="input-group-btn"><button type="button" class="btn btn-white">搜索</button></span></div> <div class="sell-product-container"><div class="sell-product-item"><h3><img src="./course.png" alt="">青少年健康管理
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">青少年健康管理</span> <!----> <span class="times">课时：1</span></p></div> <p class="price">售价：¥980.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">搏击课程
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">搏击课程</span> <!----> <span class="times">课时：1</span></p></div> <p class="price">售价：¥980.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">普拉提
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">普拉提</span> <!----> <span class="times">课时：1</span></p></div> <p class="price">售价：¥1500.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">青少年健康管理
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">青少年健康管理</span> <!----> <span class="times">课时：24</span></p></div> <p class="price">售价：¥16800.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">青少年健康管理
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">青少年健康管理</span> <!----> <span class="times">课时：48</span></p></div> <p class="price">售价：¥31200.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">搏击课程
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">搏击课程</span> <!----> <span class="times">课时：24</span></p></div> <p class="price">售价：¥16800.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">搏击课程
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">搏击课程</span> <!----> <span class="times">课时：48</span></p></div> <p class="price">售价：¥31200.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">普拉提
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">普拉提</span> <!----> <span class="times">课时：24</span></p></div> <p class="price">售价：¥19200.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div><div class="sell-product-item"><h3><img src="./course.png" alt="">普拉提
+                                </h3> <div class="sell-product-item-main"><p class="item"><span class="name">普拉提</span> <!----> <span class="times">课时：48</span></p></div> <p class="price">售价：¥36000.00</p> <p class="btn-cart"><img src="./add-shopcart.png" alt=""></p></div></div></div> <div class="checkout-container"><div class="checkout-member"><p><label>会员名称：</label>文~静</p> <p><label>会员手机：</label>15921616932</p> <p><label>会员等级：</label>普通顾客</p> <div class="checkout-member-radio"><input type="checkbox" id="checkbox"> <p>余额：¥0</p></div> <!----> <div class="checkout-pay-standard"><label class="checkout-pay-standard-label">是否标准:</label> <p class="checkout-pay-standard-item"><span class="">标准支付</span> <span class="">非标准支付</span></p></div></div> <div class="pay-types"><div class="pay-types-item"><img src="./20201110171029_5faa59054e75c.png" class="pay-types-icon"> <label for="R102" class="pay-types-txt">支付宝</label> <input type="checkbox" id="R102" class="pay-types-radio" value="102"></div><div class="pay-types-item"><img src="./20201110170930_5faa58ca05f8d.png" class="pay-types-icon"> <label for="R103" class="pay-types-txt">微信</label> <input type="checkbox" id="R103" class="pay-types-radio" value="103"></div><div class="pay-types-item"><img src="./20201110170730_5faa5852d5f07.png" class="pay-types-icon"> <label for="R104" class="pay-types-txt">银行卡</label> <input type="checkbox" id="R104" class="pay-types-radio" value="104"></div><div class="pay-types-item"><img src="./20201110170531_5faa57db312db.png" class="pay-types-icon"> <label for="R105" class="pay-types-txt">现金</label> <input type="checkbox" id="R105" class="pay-types-radio" value="105"></div><div class="pay-types-item"><img src="./20201110170437_5faa57a56340d.png" class="pay-types-icon"> <label for="R106" class="pay-types-txt">大众点评</label> <input type="checkbox" id="R106" class="pay-types-radio" value="106"></div><div class="pay-types-item"><img src="./20201110170401_5faa5781150a9.png" class="pay-types-icon"> <label for="R107" class="pay-types-txt">美团</label> <input type="checkbox" id="R107" class="pay-types-radio" value="107"></div><div class="pay-types-item"><img src="./20201110170311_5faa574f21c77.png" class="pay-types-icon"> <label for="R108" class="pay-types-txt">对公转账</label> <input type="checkbox" id="R108" class="pay-types-radio" value="108"></div><div class="pay-types-item"><img src="./20201110170220_5faa571c8c4aa.png" class="pay-types-icon"> <label for="R109" class="pay-types-txt">礼券</label> <input type="checkbox" id="R109" class="pay-types-radio" value="109"></div><div class="pay-types-item"><img src="./20201110165954_5faa568a03810.png" class="pay-types-icon"> <label for="R110" class="pay-types-txt">奉送</label> <input type="checkbox" id="R110" class="pay-types-radio" value="110"></div><div class="pay-types-item"><img src="./20201110171153_5faa595904132.png" class="pay-types-icon"> <label for="R111" class="pay-types-txt">宴请</label> <input type="checkbox" id="R111" class="pay-types-radio" value="111"></div><div class="pay-types-item"><img src="./20201110171525_5faa5a2d8e301.png" class="pay-types-icon"> <label for="R112" class="pay-types-txt">OC</label> <input type="checkbox" id="R112" class="pay-types-radio" value="112"></div><div class="pay-types-item"><img src="./20201110171614_5faa5a5e6abcd.png" class="pay-types-icon"> <label for="R113" class="pay-types-txt">团体挂账-林文英</label> <input type="checkbox" id="R113" class="pay-types-radio" value="113"></div><div class="pay-types-item"><img src="./20201113135452_5fae1fac554b5.png" class="pay-types-icon"> <label for="R114" class="pay-types-txt">团体挂帐-阮小姐</label> <input type="checkbox" id="R114" class="pay-types-radio" value="114"></div><div class="pay-types-item"><img src="./20201113135520_5fae1fc820b95.png" class="pay-types-icon"> <label for="R115" class="pay-types-txt">团体挂帐-阮总</label> <input type="checkbox" id="R115" class="pay-types-radio" value="115"></div><div class="pay-types-item"><img src="./20201113135619_5fae2003265c1.png" class="pay-types-icon"> <label for="R116" class="pay-types-txt">团体挂帐-阮总宴请</label> <input type="checkbox" id="R116" class="pay-types-radio" value="116"></div><div class="pay-types-item"><img src="./20201113143722_5fae29a2a98d2.png" class="pay-types-icon"> <label for="R117" class="pay-types-txt">团体挂帐-罗总</label> <input type="checkbox" id="R117" class="pay-types-radio" value="117"></div><div class="pay-types-item"><img src="./20201113143742_5fae29b6bf4eb.png" class="pay-types-icon"> <label for="R118" class="pay-types-txt">团体挂帐-东直门8号</label> <input type="checkbox" id="R118" class="pay-types-radio" value="118"></div><div class="pay-types-item"><img src="./20201114110910_5faf4a56a9010.png" class="pay-types-icon"> <label for="R119" class="pay-types-txt">团体挂帐-其他</label> <input type="checkbox" id="R119" class="pay-types-radio" value="119"></div><div class="pay-types-item"><img src="./20201119102904_5fb5d870250f9.png" class="pay-types-icon"> <label for="R121" class="pay-types-txt">支票</label> <input type="checkbox" id="R121" class="pay-types-radio" value="121"></div></div></div> <div tabindex="-1" role="dialog" class="modal" style="display: none;"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">修改</h4></div> <div class="modal-body"><div class="input-group"><span class="input-group-addon"> 售价</span> <input type="text" class="form-control"> <span class="input-group-addon">¥</span> <input type="text" class="form-control"> <span class="input-group-addon" style="cursor: pointer;">折扣</span></div> <table class="table table-hover"><thead><tr><th>ID</th> <th>项目名</th> <th>类型</th> <th>数量</th> <th>单价</th></tr></thead> <!----></table></div> <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-white">
+                                        取消
+                                    </button> <button type="button" class="btn btn-primary">确定
+                                    </button></div></div></div></div> <div tabindex="-1" role="dialog" class="modal" style="display: none;"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">可使用优惠券</h4></div> <div class="modal-body"></div> <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-white">
+                                        取消
+                                    </button> <button type="button" class="btn btn-primary">
+                                        确定
+                                    </button></div></div></div></div> <div tabindex="-1" role="dialog" class="modal" style="display: none;"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">请填写组合支付金额</h4></div> <div class="modal-body"></div> <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-white">
+                                        取消
+                                    </button> <button type="button" class="btn btn-primary">
+                                        确定
+                                    </button></div></div></div></div></div> <div class="show-cart"><div class="show-cart-container" style="display: none;"><p class="empty-tips">购物车暂时没有课程！</p></div> <div class="show-cart-head"><div class="show-cart-head-left"><p class="info">
+                                已选择<span>0</span>个商品，合计：¥0，优惠：¥0
+                            </p> <p class="pay">
+                                应支付：<span>¥0</span></p></div> <p class="checkout-btn">结算</p></div> <p class="shop-cart-toggle"><img src="./icon-products.png"></p></div></div>
+            <!--<script src="http://booking.izhuodao.com/assets/5db3b001/yii.validation.js"></script>-->
+            <!--<script src="http://booking.izhuodao.com/assets/5db3b001/yii.activeForm.js"></script>-->
+            <!--<script src="http://booking.izhuodao.com/assets/5db3b001/yii.gridView.js"></script>-->
+            <style>
+                .checkout-pay-standard {
+                    display: flex;
+                }
+                .checkout-pay-standard-label {
+                    font-size: 12px;
+                    line-height: 30px;
+                }
+                .checkout-pay-standard-item span {
+                    border: 1px solid #999;
+                    display: inline-block;
+                    padding: 0 10px;
+                    color: #999;
+                    border-radius: 6px;
+                    margin-right: 10px;
+                }
+                .checkout-pay-standard-item span.choosed {
+                    color: #fd8151;
+                    border-color: #fd8151;
+                    font-weight: bold;
+                }
+                .content-main {
+                    box-sizing: border-box;
+                    padding-bottom: 60px;
+                }
+
+                .sell-product-menus-list::-webkit-scrollbar-thumb {
+                    background-color: rgba(100, 100, 100, 0.1);
+                    height: 50px;
+                    outline-offset: -2px;
+                    outline: 0;
+                    -webkit-border-radius: 4px;
+                }
+
+                .sell-product-menus-list::-webkit-scrollbar {
+                    height: 5px;
+                }
+
+                .sell-step2 {
+                    display: flex;
+                    margin: 0px;
+                    background-color: #fafafa;
+                }
+
+                .checkout-container {
+                    width: 25%;
+                    height: 500px;
+                }
+
+                .sell-product {
+                    position: relative;
+                    width: 75%;
+                    height: 500px;
+                    background-color: #fafafa;
+                }
+
+                .sell-product-menus {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    height: 40px;
+                    overflow: hidden;
+                    background-color: #fff;
+                }
+
+                .sell-product-menus * {
+                    -webkit-user-select: none;
+                    user-select: none;
+                }
+
+                .sell-product-menus-list {
+                    list-style: none;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                    display: flex;
+                    width: 100%;
+                    padding: 0;
+                    margin-bottom: 0;
+                    border-bottom: 1px solid #f2f2f2;
+                    justify-content: left;
+                    align-items: baseline;
+                }
+
+                .sell-product-menus-input {
+                    position: absolute;
+                    box-sizing: border-box;
+                    z-index: 9;
+                    width: 100%;
+                    padding-left: 14px;
+                    background: #fff;
+                    display: flex;
+                    border-bottom: 1px solid #e2e2e2;
+                }
+
+                .sell-product-menus-input .form-control {
+                    border: none;
+                    width: 90%;
+                    max-width: none;
+                    box-sizing: border-box;
+                    font-size: 12px;
+                }
+
+                .sell-product-menus-input .input-group-btn {
+                    width: 10%;
+                    max-width: none;
+                    border: 0;
+                }
+
+                .sell-product-menus-input .btn {
+                    width: 100%;
+                    max-width: none;
+                    border: 0;
+                    border-radius: 0;
+                    font-size: 12px;
+                    line-height: 20px
+                }
+
+                .sell-product-menus-list li {
+                    line-height: 40px;
+                    margin: 0 25px;
+                    min-width: 60px;
+                    white-space: nowrap;
+                    font-size: 11px;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                .sell-product-menus-list li.choosed {
+                    color: #fd8151;
+                    font-size: 15px;
+                    font-weight: bold;
+                    border-bottom: 3px solid #fd8151;
+                    position: relative;
+                    height: 40px;
+                    z-index: 2;
+                    box-sizing: border-box;
+                }
+
+                .sell-product-container {
+                    box-sizing: border-box;
+                    overflow-y: scroll;
+                    display: flex;
+                    height: 500px;
+                    padding: 40px 30px 20px;
+                    background-color: #fafafa;
+                    flex-wrap: wrap;
+                    justify-content: left;
+                    align-items: flex-start;
+                    align-content: flex-start;
+                }
+
+                .sell-product-item {
+                    position: relative;
+                    width: 31%;
+                    height: 140px;
+                    margin-right: 3.5%;
+                    margin-bottom: 20px;
+                    padding: 10px 12px;
+                    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+                    border: 1px solid #F5E7D3;
+                    background-color: #FBF7ED;
+                    -webkit-user-select: none;
+                    user-select: none;
+                }
+
+                .sell-product-item:nth-child(3n) {
+                    margin-right: 0;
+                }
+
+                .sell-product-item p {
+                    margin-bottom: 0;
+                    font-size: 12px;
+                    color: #999;
+                    line-height: 18px;
+                    color: #6E472F;
+                    transform: scale(0.9);
+                    margin: 0 -10px;
+                }
+
+                .sell-product-item h3 {
+                    text-align: left;
+                    font-size: 14px;
+                    color: #DFA27D;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #F5E7D3;
+                    text-indent: 6px;
+                }
+
+                .sell-product-item .btn-primary {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                }
+
+                .sell-product-item .item {
+                    display: flex;
+                }
+
+                .sell-product-item .name {
+                    width: 70%;
+                }
+
+                .sell-product-item .times {
+                    width: 30%;
+                    text-align: right;
+                }
+
+                .sell-product-item .price {
+                    position: absolute;
+                    left: 10px;
+                    width: 100%;
+                    bottom: 0px;
+                    padding: 5px 0;
+                    font-size: 14px;
+                    color: #fd986d;
+                    text-align: right;
+                }
+
+                .sell-product-item .btn-cart {
+                    position: absolute;
+                    top: 12px;
+                    right: 18px;
+                }
+
+                .sell-product-item img {
+                    position: relative;
+                    left: -3px;
+                    top: -1px;
+                }
+
+                .sell-product-item-main {
+                    height: 70px;
+                    overflow: hidden;
+                }
+
+                /*购物车*/
+                .show-cart {
+                    position: relative;
+                    width: 100%;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+                    background-color: #fff;
+                }
+
+                .show-cart-head {
+                    display: flex;
+                    box-sizing: border-box;
+                    padding-left: 30px;
+                }
+
+                .show-cart-head-left {
+                    display: flex;
+                    width: 75%;
+                    padding: 0 20px;
+                }
+
+                .show-cart-head .info {
+                    width: 75%;
+                    font-size: 13px;
+                    line-height: 60px;
+                    color: #999;
+                    margin: 0;
+                    font-weight: normal;
+                }
+
+                .show-cart-head .info span {
+                    color: #fd9c73;
+                }
+
+                .show-cart-head .pay {
+                    width: 25%;
+                    line-height: 60px;
+                    height: 60px;
+                    text-align: right;
+                    margin: 0;
+                    font-weight: normal;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                }
+
+                .show-cart-head .pay span {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #fd9c73;
+                }
+
+                .show-cart-container {
+                    display: flex;
+                    padding: 10px 0;
+                    border-bottom: 1px solid #f6f6f6;
+                    justify-content: left;
+                    overflow-x: auto;
+                    flex-wrap: wrap;
+                    position: absolute;
+                    left: 0;
+                    bottom: 60px;
+                    width: 100%;
+                    box-shadow: 0 -4px 3px rgba(0,0,0,0.1);
+                    background: #fff;
+                }
+
+                .show-cart-item {
+                    position: relative;
+                    width: 18%;
+                    height: 100px;
+                    margin: 0 1% 5px;
+                    padding: 0;
+                    border: 1px solid #f2f2f2;
+                    background-color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .show-cart-item p {
+                    margin-bottom: 0;
+                    font-size: 11px;
+                    color: #999;
+                    line-height: 1.1;
+                    transform: scale(0.8);
+                    width: 100%;
+                    margin: 0 -5px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: left;
+                }
+                .show-cart-item .total-price {
+                    height: 20%;
+                }
+                .total-price .original {
+                    font-size: 12px;
+                    text-decoration: line-through;
+                    padding-left: 10px;
+                    transform: scale(0.9);
+                }
+                .show-cart-item h3 {
+                    font-size: 13px;
+                    text-align: center;
+                    color: #b57a57;
+                    margin: 0;
+                    height: 20%;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                .show-cart-item .btn-primary {
+                    position: absolute;
+                    bottom: 10px;
+                    right: 10px;
+                }
+
+                .show-cart-item .item {
+                    display: flex;
+                    width: 110%;
+                    margin-left: -5px;
+                }
+
+                .show-cart-item .name {
+                    width: 65%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                }
+
+                .show-cart-item .times {
+                    width: 35%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    text-align: right;
+                }
+
+                .show-cart-item .price {
+                    padding: 5px 0;
+                    font-size: 14px;
+                    color: #fd986d;
+                }
+
+                .show-cart-item .handle {
+                    position: absolute;
+                    bottom: 2px;
+                    right: 0;
+                }
+
+                .show-cart-item .btn-pic {
+                    width: 20px;
+                    padding: 1px 3px;
+                    border: none;
+                    background-color: #fff;
+                    outline: none;
+                }
+
+                .show-cart-item .btn-pic img {
+                    width: 100%;
+                    outline: none;
+                }
+
+                .checkout-member {
+                    overflow: hidden;
+                    padding: 10px 15px;
+                    background-color: #fff;
+                    border-bottom: 1px solid #e2e2e2;
+                    height: 40%;
+                }
+
+                .checkout-member p {
+                    line-height: 30px;
+                    font-size: 12px;
+                    margin-bottom: 0;
+                }
+
+                .checkout-member label {
+                    width: 70px;
+                    font-weight: normal;
+                    margin-bottom: 0;
+                }
+
+                .checkout-member-radio {
+                    display: flex;
+                }
+                .checkout-member input {
+                    margin-right: 5px;
+                    margin-top: 8px;
+                }
+                .show-cart-item-main {
+                    height: 60%;
+                }
+
+                .pay-types {
+                    overflow: hidden;
+                    overflow-y: auto;
+                    height: 60%;
+                    padding: 10px 15px;
+                    margin-bottom: 10px;
+                    border-radius: 0;
+                    background-color: #fff;
+                    border-bottom: 1px solid #e2e2e2;
+                }
+
+                .pay-types-item {
+                    position: relative;
+                }
+
+                .pay-types-icon {
+                    position: absolute;
+                    top: 6px;
+                    left: 5px;
+                    width: 18px;
+                    height: 18px;
+                }
+
+                .pay-types-txt {
+                    padding: 5px 20px 5px 30px;
+                    margin-bottom: 0;
+                }
+
+                .pay-types-radio {
+                    position: absolute;
+                    top: 2px;
+                    right: 5px;
+                    width: 18px;
+                    height: 18px;
+                }
+
+                .checkout-btn {
+                    width: 25%;
+                    margin-bottom: 0;
+                    font-size: 23px;
+                    color: #fd9c73;
+                    text-align: center;
+                    background-color: #fbf7ee;
+                    line-height: 60px;
+                }
+
+                .course-times {
+                    width: 50px;
+                    text-align: center;
+                }
+
+                .checkout-item {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .coupon-item {
+                    box-sizing: border-box;
+                    position: relative;
+                    display: flex;
+                    width: 85%;
+                    height: 80px;
+                    padding: 0 5%;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    color: #fff;
+                    background-color: #FF9C6E;
+                }
+
+                .checkout-item .checkout {
+                    position: relative;
+                    top: 31px;
+                    left: -10px;
+                }
+
+                .cycle {
+                    position: absolute;
+                    top: 50%;
+                    left: -15px;
+                    width: 30px;
+                    height: 30px;
+                    margin: -15px 0 0 0;
+                    border-radius: 15px;
+                    background-color: #fff;
+                }
+
+                .coupon-half-prev {
+                    position: relative;
+                    box-sizing: border-box;
+                    width: 47%;
+                    padding: 0 10px;
+                    border-right: 2px solid #fff;
+                }
+
+                .coupon-half-prev text {
+                    display: block;
+                    font-size: 28px;
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .coupon-item .name,
+                .coupon-item .limit-product {
+                    padding-top: 10px;
+                }
+
+                .coupon-item .limit {
+                    font-size: 22px;
+                }
+
+                .coupon-item .date,
+                .coupon-item .city {
+                    position: absolute;
+                    bottom: 20px;
+                    font-size: 14px;
+                    line-height: 1.2;
+                }
+
+                .coupon-half-next {
+                    box-sizing: border-box;
+                    width: 53%;
+                    padding: 0 10px;
+                }
+
+                .coupon-half-next text {
+                    display: block;
+                    font-size: 14px;
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .shop-cart-toggle {
+                    position: absolute;
+                    left: 12px;
+                    bottom: 12px;
+                    width: 28px;
+                    height: 32px;
+                    margin-bottom: 3px;
+                    opacity: 1;
+                }
+
+                .shop-cart-toggle img {
+                    width: 100%
+                }
+
+                .empty-tips {
+                    text-align: center;
+                    display: block;
+                    justify-content: center;
+                    width: 100%;
+                    color: #666;
+                    padding-top: 5px;
+                }
+
+                .edit-product-del {
+                    text-align: center;
+                    color: #FF9C6E;
+                    text-decoration: underline;
+                    font-size: 11px;
+                    position: relative;
+                    right: -5px;
+                }
+                .gift-select {
+                    max-width: 225px;
+                    padding: 3px;
+                    border: 1px solid #ccc;
+                }
+                .gift-select-mini {
+                    width: 50px;
+                }
+            </style>
+            <script>
+                var app = new Vue({
+                    el: '#J_Vue',
+                    data: {
+                        department_id:1,
+                        catesData: [],
+                        subCatesData: [],
+                        cateIndex: 0,
+                        subCateIndex: 0,
+                        // 商品数据
+                        productsData: [],
+                        // 购物车数据
+                        shopcart: {
+                            productCount: 0,
+                            totalAmount: {
+                                total_price: 0,
+                                total_discount: 0
+                            }
+                        },
+                        //购物车显示
+                        showShopCart: false,
+                        // 会员信息
+                        customerDetail: {},
+                        // 支付类型
+                        payTypes: [],
+                        // 修改商品数据
+                        editProduct: {},
+                        editProductNew: {},
+                        editProductShow: false,
+                        editProductIndex: 0,
+                        offPercentage: 1,
+                        allCourse: [],
+                        useBalanceFlag: false,
+                        useCouponFlag: false,
+                        balancePay: 0, // 余额支付金额
+                        couponPay: 0,
+                        useOfflinePayFlag: false,
+                        payOffline: 0,
+                        choosedPayIds: [],
+                        choosedPay: [],     // 已选支付方式
+                        showPayForm: false,
+                        canUseOfflinePay: true,
+                        // 优惠券
+                        couponsData: [
+                           /** {
+                                checked: false,
+                                selected: false,
+                                couponId: 1,
+                                couponName: '商品券',
+                                couponTips: '赠送饮品一杯',
+                                limit: '满0元使用',
+                                validDate: '2020-12-12'
+                            }**/
+                        ],
+                        isUseCoupon: false,
+                        couponShow: false,
+                        searchProductName: '',
+                        customerId: '',
+                        otherCouponNo: '', //其它优惠劵号
+                        payStandard: 0,  // 标准支付，0为为选择，1为标准，2为非标准
+                    },
+                    mounted: function () {
+                        this.getCustomerInfo();
+                        this.getAllCategory();
+                        this.getPayMethodList();
+                        this.loadProducts();
+                        this.getCoupons(false);
+                        this.customerId = this.getQueryValue('customerId');
+                        // 显示
+                        this.$refs.inited.style.opacity = 1;
+                    },
+                    methods: {
+
+                        // 获取参数
+                        getQueryValue(queryName) {
+                            let query = decodeURI(window.location.search.substring(1));
+                            let vars = query.split("&");
+                            for (let i = 0; i < vars.length; i++) {
+                                let pair = vars[i].split("=");
+                                if (pair[0] == queryName) {
+                                    return pair[1];
+                                }
+                            }
+                            return null;
+                        },
+
+                        // 获取用户信息
+                        getCustomerInfo: function () {
+                            let customerId = this.getQueryValue('customerId');
+                            let _this = this;
+
+                            if (customerId == 0) {
+                                layer.msg('未获取用户信息', {icon: 2, time: 2500});
+                                return false;
+                            }
+
+                            axios.get('index.php?r=customer/detail&customerId=' + customerId)
+                                .then(function (response) {
+                                    if (Object.keys(response.data.data).length > 0) {
+                                        _this.customerDetail = response.data.data;
+                                    }
+                                })
+                                .catch(function (error) {
+                                    //失败处理
+                                    console.log(error)
+                                });
+                        },
+
+                        // 获取所有分类
+                        getAllCategory: function () {
+                            let _this = this;
+                            axios.get('index.php?r=category/current-category&department_id='+this.department_id)
+                                .then(function (response) {
+                                    //成功返回
+                                    let categoryRes = response.data.data || [];
+                                    if (categoryRes.length > 0) {
+                                        let categories = [];
+                                        for (j = 0; j < categoryRes.length; j++) {
+                                            categories[j] = {};
+                                            categories[j]['cid'] = categoryRes[j].id;
+                                            categories[j]['name'] = categoryRes[j].name;
+                                        }
+
+                                        if (categories.length > 0) {
+                                            _this.catesData = categories;
+                                            let defaultCid = categories[0]['cid'];
+                                            _this.cateIndex = defaultCid;
+                                            //加载当前第一个分类的所有二级分类
+                                            _this.getSubCate(defaultCid)
+
+                                        }
+                                    }
+                                })
+                                .catch(function (error) {
+                                    //失败处理
+                                    console.log(error)
+                                });
+                        },
+
+                        // 获取分类商品
+                        getCateProducts: function (sub_cate_id) {
+                            let _this = this;
+                            axios.get('index.php?r=category/products&cid=' + _this.cateIndex + '&sub_cid=' + sub_cate_id)
+                                .then(function (response) {
+                                    // 成功返回
+                                    _this.productsData = response.data.data || [];
+                                })
+                                .catch(function (error) {
+                                    // 失败处理
+                                    console.log(error);
+                                });
+                        },
+
+                        // 搜索商品
+                        searchProduct: function () {
+                            let _this = this;
+                            let searchProductName = _this.searchProductName;
+
+                            if (searchProductName == '') {
+                                layer.msg('请输入商品名', {icon: 2, time: 2500});
+                                return false;
+                            }
+
+                            axios.get('index.php?r=product/search&productName=' + searchProductName)
+                                .then(function (response) {
+                                    // 成功返回
+                                    _this.productsData = response.data.data || [];
+                                    _this.cateIndex = 0;
+                                })
+                                .catch(function (error) {
+                                    // 失败处理
+                                    console.log(error);
+                                });
+                        },
+
+                        loadProducts: function () {
+                            let _this = this;
+                            let customerId = this.getQueryValue('customerId');
+                            // 加载商品数据数据
+                            axios.get('index.php?r=sale/view-cart&customerId=' +customerId)
+                                .then(function (response) {
+                                    let data = response.data.data;
+                                    if(response.data.data && response.data.data.admin_id){
+                                        _this.shopcart = response.data.data;
+                                    }
+                                    if(!!data.customerInfo.balance){
+                                        _this.customerDetail.balance = data.customerInfo.balance || 0;
+                                    }
+                                    _this.checkPay();
+                                })
+                                .catch(function (error) {
+                                    //失败处理
+                                    console.log(error);
+                                });
+                        },
+
+                        // 检查支付
+                        checkPay: function () {
+                            let _this = this;
+                            let remainBalance = _this.customerDetail.balance || 0;
+                            let totalPrice = _this.shopcart.totalAmount != undefined ? _this.shopcart.totalAmount.total_price : {
+                                total_price: 0,
+                                total_discount: 0
+                            };
+                            if (_this.shopcart.paymentMethod !=
+                                undefined && _this.shopcart.paymentMethod.coupon != undefined && _this.shopcart
+                                    .paymentMethod.coupon
+                                .is_use_coupon) {
+                                let  money = parseFloat(_this.shopcart.paymentMethod.coupon.money);
+                                totalPrice = parseInt(totalPrice - money)
+                                _this.couponPay = money
+                                _this.useCouponFlag = true
+                            }
+
+                            // 已选组支付方式
+                            if (_this.shopcart.paymentMethod != undefined && !!_this.shopcart.paymentMethod.offline) {
+                                _this.useBalanceFlag = (_this.shopcart.paymentMethod.online != undefined && _this
+                                    .shopcart
+                                    .paymentMethod.online.useBalance) || false;
+                                if (!!_this.shopcart.paymentMethod.offline) {
+                                    _this.payOffline = _this.shopcart.paymentMethod.offline.payMethodId || 0;
+                                }
+                            } else {
+                                _this.useBalanceFlag = false;
+                                _this.payOffline = 0;
+                            }
+                            if (_this.useBalanceFlag) {
+                                // 如果使用余额 判断余额大小 是否需要再进行线下支付
+                                if (remainBalance > totalPrice) {
+                                    _this.canUseOfflinePay = false;
+                                    _this.balancePay = totalPrice;
+                                } else {
+                                    _this.canUseOfflinePay = true;
+                                    _this.balancePay = remainBalance;
+                                }
+                            }
+                        },
+
+                        // 切换分类
+                        changeCates: function (cid) {
+                            this.cateIndex = cid;
+                            this.getSubCate(cid)//加载二级分类
+                            //加载二级分类
+                        },
+                        // 切换二级分类
+                        changeSubCates: function (cid) {
+                            this.subCateIndex = cid;
+                            this.getCateProducts(cid);//加载当前分类所有商品
+                        },
+                        getSubCate(cid) {
+                            let _this = this;
+                            _this.subCatesData = []
+                            axios.get('index.php?r=category/sub-category&cate_id=' + cid).then(function (response) {
+                                //成功返回
+                                let categoryRes = response.data.data || [];
+
+                                let categories = [];
+
+                                categories[0] = {
+                                    'cid': 0,
+                                    'name': '全部'
+                                }
+                                //有二级分类
+                                if (categoryRes.length > 0) {
+
+                                    for (var i = 0, j = 1; j <= categoryRes.length; i++, j++) {
+                                        categories[j] = {};
+                                        categories[j]['cid'] = categoryRes[i].id;
+                                        categories[j]['name'] = categoryRes[i].name;
+                                    }
+                                }
+                                _this.subCatesData = categories;
+                                _this.subCateIndex = categories[0]['cid'];
+                                _this.getCateProducts(0);
+                            }).catch(function (error) {
+                                //失败处理
+                                console.log(error)
+                            });
+                        },
+                        // 切换分类
+                        changeSubCates: function (cid) {
+                            this.subCateIndex = cid;
+
+                            this.getCateProducts(cid);
+                        },
+
+                        // 加入购物车请求
+                        _ajaxAddShopCart: function (productId, isProduct) {
+                            let _this = this;
+                            let customerId = this.getQueryValue('customerId');
+                            axios.post('index.php?r=sale/add-cart', {
+                                customerId:customerId,
+                                productId: productId,
+                                cateId: _this.subCateIndex > 0 ? _this.subCateIndex : _this.cateIndex,
+                                quantity: 1,
+                                isProduct: isProduct
+                            }).then(function (response) {
+                                _this.shopcart = response.data.data;
+                                _this.getCoupons(false);
+                                _this.checkPay();
+                                layer.msg(response.data.msg, {icon: 1, time: 2500})
+                            })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+
+                        // 确认修改商品
+                        ajaxUpdateShopCart: function () {
+                            let _editProduct = this.editProduct;
+                            let _editProductIndex = this.editProductIndex;
+                            let _this = this;
+                            let customerId = this.getQueryValue('customerId');
+                            this.editProduct.price = this.editProduct.salePrice;
+                            axios.post('index.php?r=sale/update-cart-product', {
+                                productIndex: _editProductIndex,
+                                productData: _editProduct,
+                                customerId:customerId,
+                            })
+                                .then(function (response) {
+                                    if (response.data.status == 1) {
+                                        layer.msg(response.data.msg, {icon: 2, time: 3000});
+                                        return false;
+                                    }
+
+                                    _this.shopcart = response.data.data;
+                                    _this.checkPay();
+                                    layer.msg(response.data.msg, {icon: 1, time: 2500});
+                                    _this.closeModelNew();
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+
+                        // 处理加入购物车
+                        addShopCart: function (productId) {
+                            let customerId = this.getQueryValue('customerId');
+                            let productsData = this.productsData, _this = this;
+                            productsData.some(function (product) {
+                                if (product.id == productId) {
+                                    _this._ajaxAddShopCart(productId, product.is_product);
+                                    return true;
+                                }
+                            });
+                        },
+
+                        // 编辑购物车商品
+                        updateShopCart: function (cartIndex) {
+                            let _this = this;
+                            let shopCartProduct = this.shopcart.productData;
+                            _this.editProduct = shopCartProduct[cartIndex];
+                            _this.editProduct.salePrice = _this.editProduct.price;
+                            _this.editProductShow = true;
+                            _this.editProductIndex = cartIndex;
+                            this.editProductNew = JSON.parse(JSON.stringify(_this.editProduct));
+
+                            // 获取所有课程
+                            axios.get('index.php?r=sale/get-all-course')
+                                .then(function (response) {
+                                    _this.allCourse = response.data.data;
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+
+                        },
+
+                        // 删除购物车商品
+                        delShopCart: function (cartIndex) {
+                            let customerId = this.getQueryValue('customerId');
+                            let _this = this;
+                            axios.post('index.php?r=sale/del-cart-product', {
+                                productIndex: cartIndex,
+                                customerId: customerId
+                            })
+                                .then(function (response) {
+                                    _this.shopcart = response.data.data;
+                                    _this.loadProducts();
+                                    layer.msg(response.data.msg, {icon: 1, time: 2500})
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+
+                        // 增加赠品
+                        addGift: function () {
+                            this.editProduct.project_detail.push({
+                                course_id: 0,
+                                course_name: '',
+                                section: 1,
+                                type: 2,
+                                type_text: '赠品',
+                                price: 0,
+                            });
+                        },
+                        // 删除赠品
+                        delGift(index) {
+                            let editProduct = this.editProduct.project_detail;
+                            if (editProduct instanceof Array) {
+                                editProduct.splice(index, 1);
+                                this.editProduct.project_detail = editProduct;
+                            }
+                        },
+                        // 关闭修改弹窗
+                        closeModel: function () {
+                            this.editProductShow = false;
+                            this.couponShow = false;
+                            this.showPayForm = false;
+                            let editProductNew = this.editProductNew;
+                            this.editProduct.price = this.editProductNew.price;
+                            if(this.$refs.useCouponFlag){
+                                this.$refs.useCouponFlag.checked = this.couponPay > 0 ? true : false;
+                            }
+                        },
+
+                        // 确认关闭弹框
+                        closeModelNew: function () {
+                            this.editProductShow = false;
+                            this.couponShow = false;
+                        },
+
+                        // 获取支付方式
+                        getPayMethodList: function () {
+                            let _this = this;
+                            // 加载商品数据数据
+                            axios.get('index.php?r=payment-method/list')
+                                .then(function (response) {
+                                    _this.payTypes = response.data.data;
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+
+                        // 点击使用余额
+                        useBalance: function () {
+                            let _this = this;
+                            let remainBalance = _this.customerDetail.balance;
+                            let totalPrice = _this.shopcart.totalAmount.total_price - this.couponPay;
+                            let offlinePayAmount = totalPrice;
+                            let balancePay = _this.balancePay;
+
+                            _this.useBalanceFlag = !_this.useBalanceFlag;
+
+                            // 使用余额
+                            let useBalanceType = 0;
+                            if (_this.useBalanceFlag) {
+                                // 余额大于总价 优先使用余额
+                                if (remainBalance > totalPrice) {
+                                    _this.canUseOfflinePay = false;
+                                    balancePay = totalPrice;
+                                } else {
+                                    _this.canUseOfflinePay = true;
+                                    balancePay = remainBalance;
+                                }
+                                useBalanceType = 1;
+                            } else {
+                                // 不使用余额
+                                _this.canUseOfflinePay = true;
+                                useBalanceType = 0;
+                                balancePay = 0;
+                            }
+
+                            _this.balancePay = balancePay;
+
+                            // 调用余额使用接口
+                            axios.post('index.php?r=sale/use-balance', {
+                                type: useBalanceType,
+                                customerId: _this.customerId
+                            })
+                                .then(function (response) {
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+
+                            // 如果选中了线下支付 但是不可以使用了 则修改为未选中
+                            if (!_this.canUseOfflinePay && _this.payOffline > 0) {
+                                _this.payOffline = 0;
+                                // 调用选择线下支付接口
+                                axios.post('index.php?r=sale/pay-offline', {
+                                    type: 0,
+                                    payOfflineMethod: _this.payOffline,
+                                    customerId: _this.customerId
+                                })
+                                    .then(function (response) {
+                                    })
+                                    .catch(function (error) {
+                                        console.log(error);
+                                    });
+                            }
+
+                        },
+
+                        // 使用线下支付
+                        useOfflinePay: function (payMethod) {
+                            let _this = this;
+                            if (!_this.useOfflinePayFlag) {
+                                _this.useOfflinePayFlag = !_this.useOfflinePayFlag;
+                            }
+
+                            // 判断是否选择线下支付
+                            let useOfflineType = 0;
+                            if (_this.useOfflinePayFlag) {
+                                useOfflineType = 1;
+                            } else {
+                                useOfflineType = 0;
+                            }
+
+                            _this.payOffline = payMethod;
+
+                            if (useOfflineType && _this.payOffline == 0) {
+                                layer.msg('支付方式选择异常', {icon: 2, time: 2500});
+                                return false;
+                            }
+
+                            // 调用选择线下支付接口
+                            axios.post('index.php?r=sale/pay-offline', {
+                                type: useOfflineType,
+                                payOfflineMethod: _this.payOffline,
+                                customerId: _this.customerId
+                            })
+                                .then(function (response) {
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+
+
+                        getCoupons: function (dispaly) {
+                            this.couponShow = dispaly;
+                            let customerId = this.getQueryValue('customerId');
+                            let _this = this;
+
+                            if (customerId == 0) {
+                                layer.msg('未获取用户信息', {icon: 2, time: 2500});
+                                return false;
+                            }
+                            axios.get('index.php?r=customer/coupon-list&customerId=' + customerId)
+                                .then(function (response) {
+                                    if (Object.keys(response.data.data).length > 0) {
+                                        _this.couponsData = response.data.data;
+                                    } else {
+                                        _this.couponsData = [];
+                                    }
+                                })
+                                .catch(function (error) {
+                                    //失败处理
+                                    console.log(error)
+                                });
+                        },
+                        // 使用优惠券
+                        useCoupon: function () {
+                            this.couponShow = false;
+                            let customerId = this.getQueryValue('customerId');
+                            let _this = this;
+                            let totalPrice = _this.shopcart.totalAmount.total_price;
+
+                            if (customerId == 0) {
+                                layer.msg('未获取用户信息', {icon: 2, time: 2500});
+                                return false;
+                            }
+                            let couponIds = [];
+                            this.couponsData.forEach(coupon => {
+                                if (coupon.selected)  couponIds.push(coupon.couponId);
+                            })
+
+                            axios.get('index.php?r=customer/check-coupon&customerId=' + customerId + '&couponIds='+
+                                couponIds)
+                                .then(function (response) {
+                                    // 使用余额
+                                    if (response.data.status == 0) {
+                                        let coupon_money = parseFloat(response.data.data.sum_disc_amt);
+                                        _this.couponPay = coupon_money;
+                                        _this.$refs.useCouponFlag.checked = coupon_money > 0 ? true : false;
+                                    } else {
+                                        layer.msg(response.data.msg, {icon: 2, time: 2500});
+                                    }
+                                })
+                                .catch(function (error) {
+                                    //失败处理
+                                    console.log(error)
+                                });
+                        },
+                        selectedCoupon : function (coupon, index){
+                           this.couponsData[index].selected = !this.couponsData[index].selected
+                            console.log(this.couponsData)
+                        },
+                        // 组合支付
+                        combinationPay (){
+                            let payTypes = this.payTypes,
+                                choosedPayIds = this.choosedPayIds,
+                                choosedPay = [],
+                                payStandard = this.payStandard;
+                            if(payStandard <= 0){
+                                alert('请选择是否标准！');
+                                return;
+                            }
+                            payTypes.forEach(pay => {
+                                if(choosedPayIds.indexOf(pay.id)>=0){
+                                    choosedPay.push(pay);
+                                }
+                            });
+                            if(choosedPay.length <= 0){
+                                layer.msg('请先选择支付方式!', {icon: 2, time: 2500});
+                                return ;
+                            }
+                            if(choosedPay.length == 1){
+                                // 单选
+                                let payPrice = parseInt(this.shopcart.totalAmount.total_price - this.balancePay - this.couponPay);
+                                choosedPay[0].price = payPrice;
+                                this.choosedPay = choosedPay;
+                                this.surePay();
+                            }else {
+                                // 多选
+                                this.choosedPay = choosedPay;
+                                this.showPayForm = true;
+                            }
+                            
+
+                            console.log("choosedPay", choosedPay);
+                        },
+                        // 结算下单
+                        checkout: function () {
+                            let customerId = this.getQueryValue('customerId'),
+                                payStandard = this.payStandard;
+
+                             axios.post('index.php?r=order/create-order',{department_id:this.department_id,
+                                 customerId:customerId, otherCouponNo:this.otherCouponNo, payStandard })
+                                .then(function (response) {
+                                    if (response.data.status == 0) {
+                                        let orderNo = response.data.data.order_no;
+                                        location.href = '/index.php?r=order/finish&order_no=' + orderNo;
+                                    } else {
+                                        layer.msg(response.data.msg, {icon: 2, time: 3000});
+                                        return false;
+                                    }
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                        },
+                        // 切换购物车显示
+                        toggleShopCart() {
+                            this.showShopCart = !this.showShopCart;
+                        },
+                        // 更改选择
+                        changeSelect (cid, index){
+                            this.allCourse.some(ele => {
+                                if(ele.id == cid){
+                                    this.editProduct.project_detail[index].course_name = ele.name;
+                                    return true;
+                                }
+                            });
+                        },
+                        changeGiftType (cid, index){
+                            let prevProject = this.editProduct.project_detail[0];
+                            if(cid==0){
+                                alert('请先选择项目！');
+                                this.editProduct.project_detail[index].type = 2;
+                                return ;
+                            }
+                            if(prevProject.course_id != cid){
+                                alert('加赠只支持相同项目！');
+                                this.editProduct.project_detail[index].type = 2;
+                                return ;
+                            }
+                        },
+                        changeOffPercentage (){
+                            let editProduct = JSON.parse(JSON.stringify(this.editProduct));
+                            if(this.offPercentage<1 && this.offPercentage>0){
+                                editProduct.salePrice = parseInt(this.editProduct.price * Number(this.offPercentage));
+                                this.editProduct = editProduct;
+                            }else{
+                                alert("请填写折扣，有效范围0.1～1！");
+                            }
+                        },
+                        togglePayStandard (standard){
+                            this.payStandard = standard;
+                            // console.log('payStandard:', payStandard);
+                        },
+                        // 确认支付
+                        surePay (){
+                            let _this = this;
+                            let choosedPay = this.choosedPay;
+                            let customerId = this.getQueryValue('customerId');
+                            let canPay = choosedPay.every(pay => {
+                                if(pay.price > 0){
+                                    return true;
+                                }else{
+                                    return false;
+                                }
+                            });
+                            if(canPay){
+                                let pays = [];
+                                choosedPay.forEach(pay => {
+                                    pays.push({"paymentId":pay.id, "amount":pay.price});
+                                });
+                                axios.post('index.php?r=sale/pay-offline',
+                                {
+                                    type: 1,
+                                    customerId:customerId,
+                                    paymentMethods: pays
+                                })
+                                .then(function (response) {
+                                    if (response.data.status == 0) {
+                                        _this.showPayForm = false;
+                                        _this.checkout();
+                                    } else {
+                                        layer.msg(response.data.msg, {icon: 2, time: 3000});
+                                        return false;
+                                    }
+                                })
+                                .catch(function (error) {
+                                    console.log(error);
+                                });
+                            }else{
+                                layer.msg('请填写组合支付金额!', {icon: 2, time: 2500});
+                            }
+                        }
+                    }
+                })
+            </script>
+
+            
+
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="./layui.all.js"></script>
+<script src="./index.js"></script>
+
+
+</body></html>
